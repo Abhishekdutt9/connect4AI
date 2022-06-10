@@ -302,9 +302,7 @@ class PruneAgent(HeuristicAgent):
 
         Returns: the minimax utility value of the state
         """
-        #
-        # Fill this in!
-        #
+        
         alpha = -math.inf
         beta = math.inf
         return self.minimax_prune_helper(state, depth, alpha, beta)
